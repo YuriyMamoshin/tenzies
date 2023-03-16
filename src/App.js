@@ -101,8 +101,8 @@ export default function App() {
             </div>
             <button className="roll-dice" onClick={rollDice}>{tenzies ? "New game" : `Roll ${counter}`}</button>
             {tenzies && <Confetti
-                height='500px'
-                width="600px"
+                height='2000px'
+                width='2000px'
             />}
         </main>
     )
